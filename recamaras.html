@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recámaras - Mueblería</title>
+    <link rel="stylesheet" href="recamaras.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <script defer src="recamaras.js"></script>
+    <script src="search.js"></script>
+</head>
+<!-- ENCABEZADO (HEADER) -->
+<header>
+       <button class="menu-toggle" id="menuToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+     <div class="logo">
+        <img src="imagen/logo.png" alt="Sector Mueblero de Durango" class="logo-img">     
+    </div>
+    
+    <nav id="mobileNav">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li class="dropdown">
+                <a href="#">CATEGORIAS</a>
+                <ul class="dropdown-content">
+                    <li><a href="comedores.html">Comedor</a></li>
+                    <li><a href="buffeteros.html">Buffeteros</a></li>
+                    <li><a href="cocinas.html">Cocinas</a></li>
+                    <li><a href="islas.html">Islas</a></li>
+                    <li><a href="recamaras.html">Recámaras</a></li>
+                    <li><a href="Salas.html">Salas</a></li>
+                    <li><a href="silloneskids.html">Sillones para niños</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#equipo">EQUIPO</a></li>
+           <li><a href="index.html#contacto">CONTACTO</a></li>
+            <div class="search-container">
+              <input type="text" placeholder="Buscar...">
+              <button><i class="fas fa-search"></i></button>
+            </div>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h1>RECÁMARAS</h1>
+        </div>
+        <div class="productos-grid">
+            <!-- Recámara 1 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 1', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0001.jpg', 'Recámara', 'Recámara elegante con diseño moderno.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0001.jpg" alt="Recámara Alfa 1" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Bourbon</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 2 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 2', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0002.jpg', 'Recámara', 'Recámara espaciosa con acabados de lujo.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0002.jpg" alt="Recámara Alfa 2" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Dubai</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 3 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 3', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0003.jpg', 'Recámara', 'Recámara moderna con diseño minimalista.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0003.jpg" alt="Recámara Alfa 3" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Tatum</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 4 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 4', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0004.jpg', 'Recámara', 'Recámara amplia con diseño contemporáneo.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0004.jpg" alt="Recámara Alfa 4" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Warner</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 5 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 5', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0005.jpg', 'Recámara', 'Recámara con estilo clásico renovado.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0005.jpg" alt="Recámara Alfa 5" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Malbec</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 6 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 6', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0006.jpg', 'Recámara', 'Recámara con diseño contemporáneo.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0006.jpg" alt="Recámara Alfa 6" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Sidney</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 7 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 7', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0007.jpg', 'Recámara', 'Recámara elegante con acabados premium.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0007.jpg" alt="Recámara Alfa 7" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Rochelle</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 8 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 8', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0008.jpg', 'Recámara', 'Recámara moderna con líneas limpias.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0008.jpg" alt="Recámara Alfa 8" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Milan</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 9 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 9', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0009.jpg', 'Recámara', 'Recámara con diseño funcional y elegante.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0009.jpg" alt="Recámara Alfa 9" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Manchester</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 10 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 10', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0010.jpg', 'Recámara', 'Recámara con estilo contemporáneo.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0010.jpg" alt="Recámara Alfa 10" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Durham</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 11 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 11', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0011.jpg', 'Recámara', 'Recámara con diseño moderno y funcional.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0011.jpg" alt="Recámara Alfa 11" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Durham</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 12 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 12', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0012.jpg', 'Recámara', 'Recámara con acabados de alta calidad.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0012.jpg" alt="Recámara Alfa 12" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Yakarta</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 13 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 13', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0013.jpg', 'Recámara', 'Recámara con diseño elegante y sofisticado.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0013.jpg" alt="Recámara Alfa 13" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Gales</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 14 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 14', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0014.jpg', 'Recámara', 'Recámara con estilo moderno y minimalista.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0014.jpg" alt="Recámara Alfa 14" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Castilla</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 15 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 15', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0015.jpg', 'Recámara', 'Recámara con diseño contemporáneo y funcional.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0015.jpg" alt="Recámara Alfa 15" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Merlot</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 16 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 16', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0016.jpg', 'Recámara', 'Recámara con acabados premium y diseño elegante.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0016.jpg" alt="Recámara Alfa 16" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara Celta</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 17 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 17', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0017.jpg', 'Recámara', 'Recámara con diseño moderno y espacioso.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0017.jpg" alt="Recámara Alfa 17" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara York</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+            <!-- Recámara 18 -->
+            <div class="muebleria" onclick="openModal('Recámara Alfa 18', 'Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0018.jpg', 'Recámara', 'Recámara con diseño elegante y funcional.')">
+                <img src="Alfa/Catalogo Alfa JUNIO 2024 email-3-20_page-0018.jpg" alt="Recámara Alfa 18" />
+                <div class="info">
+                    <p>Recámara</p>
+                    <h3>Recámara York</h3>
+                    <p>Mueblería Alfa</p>
+                </div>
+            </div>
+
+             <!-- Base de cama -->
+        <div class="muebleria" onclick="openModal('Base de Cama', 'BYCSA/camas/Base de cama.jpg', 'Cama', 'Medidas disponibles', 'Base de cama con diseño moderno y resistente.')">
+            <img src="BYCSA/camas/Base de cama.jpg" alt="Base de Cama" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Base de Cama</h3>
+                <p>Diseño moderno</p>
+            </div>
+        </div>
+
+        <!-- Cabecera -->
+        <div class="muebleria" onclick="openModal('Cabecera', 'BYCSA/camas/Cabecera.jpg', 'Cama', 'Medidas disponibles', 'Cabecera elegante con acabados de alta calidad.')">
+            <img src="BYCSA/camas/Cabecera.jpg" alt="Cabecera" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Cabecera</h3>
+                <p>Diseño elegante</p>
+            </div>
+        </div>
+
+        <!-- Cama Emma Vista 1 -->
+        <div class="muebleria" onclick="openModal('Cama Emma', 'BYCSA/camas/Cama emma 1.jpg', 'Cama', 'Medidas disponibles', 'Cama Emma con diseño contemporáneo y acabados de lujo.')">
+            <img src="BYCSA/camas/Cama emma 1.jpg" alt="Cama Emma" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Cama Emma</h3>
+                <p>Diseño contemporáneo</p>
+            </div>
+        </div>
+
+        <!-- Cama Emma Vista 2 -->
+        <div class="muebleria" onclick="openModal('Cama Emma', 'BYCSA/camas/Cama emma 2.jpg', 'Cama', 'Medidas disponibles', 'Cama Emma con diseño contemporáneo y acabados de lujo, vista alternativa.')">
+            <img src="BYCSA/camas/Cama emma 2.jpg" alt="Cama Emma" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Cama Emma</h3>
+                <p>Diseño contemporáneo</p>
+            </div>
+        </div>
+
+        <!-- Cama Gala -->
+        <div class="muebleria" onclick="openModal('Cama Gala', 'BYCSA/camas/Cama gala.jpg', 'Cama', 'Medidas disponibles', 'Cama Gala con diseño elegante y sofisticado.')">
+            <img src="BYCSA/camas/Cama gala.jpg" alt="Cama Gala" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Cama Gala</h3>
+                <p>Diseño sofisticado</p>
+            </div>
+        </div>
+
+        <!-- Cama Mila -->
+        <div class="muebleria" onclick="openModal('Cama Mila', 'BYCSA/camas/Cama mila.jpg', 'Cama', 'Medidas disponibles', 'Cama Mila con diseño moderno y confortable.')">
+            <img src="BYCSA/camas/Cama mila.jpg" alt="Cama Mila" />
+            <div class="info">
+                <p>Cama</p>
+                <h3>Cama Mila</h3>
+                <p>Diseño moderno</p>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+
+      <!-- Modal para detalles del producto -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img src="" alt="" class="modal-image" id="modal-image">
+            <div class="modal-details">
+                <h2 id="modal-title"></h2>
+                <p id="modal-type"></p>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sillones para niños - Mueblería</title>
+    <link rel="stylesheet" href="silloneskid.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <script defer src="silloneskids.js"></script>
+    <script src="search.js"></script>
+</head>
+<!-- ENCABEZADO (HEADER) -->
+<header>
+       <button class="menu-toggle" id="menuToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+     <div class="logo">
+        <img src="imagen/logo.png" alt="Sector Mueblero de Durango" class="logo-img">     
+    </div>
+    
+    <nav id="mobileNav">
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="eventos.html">EVENTOS</a></li>
+            <li class="dropdown">
+                <a href="#">CATEGORIAS</a>
+                <ul class="dropdown-content">
+                    <li><a href="comedores.html">Comedor</a></li>
+                    <li><a href="buffeteros.html">Buffeteros</a></li>
+                    <li><a href="cocinas.html">Cocinas</a></li>
+                    <li><a href="islas.html">Islas</a></li>
+                    <li><a href="recamaras.html">Recámaras</a></li>
+                    <li><a href="Salas.html">Salas</a></li>
+                    <li><a href="silloneskids.html">Sillones para niños</a></li>
+                    <li><a href="accesorios.html">Accesorios</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#equipo">EQUIPO</a></li>
+           <li><a href="index.html#contacto">CONTACTO</a></li>
+            <div class="search-container">
+              <input type="text" placeholder="Buscar...">
+              <button><i class="fas fa-search"></i></button>
+            </div>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <h1>Sillones para niños</h1>
+        </div>
+        <div class="productos-grid">
+           
+ <!-- Sillón Kids Vista 1 -->
+    <div class="muebleria" onclick="openModal('Sillón Kids', 'BYCSA/sillones/kids.jpg', 'Sillón', 'Medidas disponibles', 'Sillón Kids con diseño especial para niños.')">
+        <img src="BYCSA/sillones/kids.jpg" alt="Sillón Kids" />
+        <div class="info">
+            <p>Sillón</p>
+            <h3>Sillón Kids</h3>
+            <p>Diseño infantil</p>
+        </div>
+    </div>
+
+    <!-- Sillón Kids Vista 2 -->
+    <div class="muebleria" onclick="openModal('Sillón Kids', 'BYCSA/sillones/kids 2.png', 'Sillón', 'Medidas disponibles', 'Sillón Kids con diseño especial para niños, vista alternativa.')">
+        <img src="BYCSA/sillones/kids 2.png" alt="Sillón Kids" />
+        <div class="info">
+            <p>Sillón</p>
+            <h3>Sillón Kids</h3>
+            <p>Diseño infantil</p>
+        </div>
+    </div>
+
+    <!-- Sillón Kids Vista 3 -->
+    <div class="muebleria" onclick="openModal('Sillón Kids', 'BYCSA/sillones/kids 3.png', 'Sillón', 'Medidas disponibles', 'Sillón Kids con diseño especial para niños, vista adicional.')">
+        <img src="BYCSA/sillones/kids 3.png" alt="Sillón Kids" />
+        <div class="info">
+            <p>Sillón</p>
+            <h3>Sillón Kids</h3>
+            <p>Diseño infantil</p>
+        </div>
+    </div>
+
+    <!-- Sillón Loto -->
+    <div class="muebleria" onclick="openModal('Sillón Loto', 'BYCSA/sillones/loto.jpg', 'Sillón', 'Medidas disponibles', 'Sillón Loto con diseño moderno y confortable.')">
+        <img src="BYCSA/sillones/loto.jpg" alt="Sillón Loto" />
+        <div class="info">
+            <p>Sillón</p>
+            <h3>Sillón Loto</h3>
+            <p>Diseño moderno</p>
+        </div>
+    </div>
+
+    <!-- Sillón Luca -->
+    <div class="muebleria" onclick="openModal('Sillón Luca', 'BYCSA/sillones/luca.jpg', 'Sillón', 'Medidas disponibles', 'Sillón Luca con diseño contemporáneo y elegante.')">
+        <img src="BYCSA/sillones/luca.jpg" alt="Sillón Luca" />
+        <div class="info">
+            <p>Sillón</p>
+            <h3>Sillón Luca</h3>
+            <p>Diseño contemporáneo</p>
+        </div>
+    </div>
+
+        </div>
+    </div>
+
+      <!-- Modal para detalles del producto -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img src="" alt="" class="modal-image" id="modal-image">
+            <div class="modal-details">
+                <h2 id="modal-title"></h2>
+                <p id="modal-type"></p>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
